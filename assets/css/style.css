@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.page{
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+h2.texto{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.caixa{
+    background: #fff;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa input{
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.caixa input::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+button{
+    width: 350px;
+    height: 50px;
+    background: #0288d1;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #107cb6;
+}
+
+.opt{
+    width: 500px;
+    height: 10px;
+    margin-top: 15px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
